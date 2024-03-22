@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400&display=swap">
+</head>
+
+<body>
+    <header>
+        <h1>Ricardo Adolfo Moura</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="pastel-background">
+        <h2>Sobre Mim</h2>
+        <div class="columnas">
+            <p>Olá, seja bem vindo! </p>
+            <p>Meu nome é Ricardo Adolfo Moura e  sou um programador Front-end com habilidades em HTML, 
+                CSS e JavaScript. Atualmente, estou em transição de carreira na área de Programador CNC para 
+                o desenvolvimento web. Minha jornada no desenvolvimento de software tem sido emocionante, 
+                marcada por descobertas e crescimento constante. Estou comprometido em manter essa chama acesa,
+                 sempre ansioso para explorar o desconhecido e criar um impacto significativo no mundo do 
+                 desenvolvimento de software. </p>
+            <p style="font-style: italic;">Tenho experiência em contribuir para projetos, garantindo o 
+                alinhamento com as últimas tendências e ferramentas do setor. </p>
+        </div>
+    </section>
+
+    <section id="formacao" class="pastel-background">
+        <h2>Formação</h2>
+            <ul>
+                <li>Estudante de Análise e Desenvolvimento de Sistemas no UNINTER Centro Universitário Internacional. (2023 - 2026)</li>
+                
+                <li>Estudante de Programação de Computadores no Dev Club, uma instituição de formação de estudantes profissionais.(2023 - 2024)</li>
+            </ul>
+    </section>
+    <section id="portfolio" class="pastel-background">
+        <h2>Portfólio</h2>
+        
+        <div class="project">
+
+            <h4>Projeto 1: Mário Bros</h4>
+            <p>
+                Este projeto envolve um projeto de aprendizado do Mário Bros que aprendi a fazer no Dev Club, 
+                com muita tentativas e falhas, onde é feito uma página com responsividade, para se adaptar a uma 
+                página de celular.
+            </p>
+            <div class="project-images">
+                <div class="grid-container">
+                    <div class="grid-item"><img src="mario.png"></div>
+                    <div class="grid-item"><img src="mario1.png"></div>
+                    <div class="grid-item1"><img src="mario2.png"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h4>Projeto 2: Responsivo mobile</h4>
+            <p>
+                Projeto em que desenvolvi de acordo com as aulas do DevClub, onde é feito uma página responsiva,
+                 para se adaptar a uma página de celular.
+            </p>
+            <div class="project-images">
+                <div class="grid-container1">
+                    <div class="grid-item"><img src="site.png"></div>
+                    <div class="grid-item2"><img src="site1.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="scroll-to-top">
+        <a href="#top"></a>
+    </div>
+    <section id="contato" class="pastel-background">
+        <h2>Contato</h2>
+        <p style="font-style: italic;text-align: center;">Duvidas ou sugestões entre em contato preenchendo o
+            formulário abaixo:</p>
+
+        <form onsubmit="alert('Mensagem enviada com sucesso!');">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="floating-button">
+            <a href="#top">
+                <?xml version="1.0" ?><svg height="42" viewBox="0 0 1792 1792" width="42"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1412 895q0-27-18-45l-362-362-91-91q-18-18-45-18t-45 18l-91 91-362 362q-18 18-18 45t18 45l91 91q18 18 45 18t45-18l189-189v502q0 26 19 45t45 19h128q26 0 45-19t19-45v-502l189 189q19 19 45 19t45-19l91-91q18-18 18-45zm252 1q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
